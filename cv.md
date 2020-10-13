@@ -1,37 +1,25 @@
-# Searhei Ausiannikau
+# **Searhei Ausiannikau**
+###### Date of Birth: 06 October 1981 Phone number: +375 29 6866790 Address: Minsk E-mail: sergeyovsynnikov2@gmail.com
 
-## Objective: Junior Front-End Developer
-**Date  of birth:**		October 6, 1981
-**Family status:**		Married
-**Nationality:**		Belarus
+## OBJECTIVE
 
-### Contact Info:
-https://github.com/Sergey-dotcom
-	sergeyovsynnikov2@gmail.com   
-	+375296866790
+Looking to obtain a position as a Junior JS Developer in a team of professionals for growing as a specialist and become be able to resolve a high range of business tasks
 
-### Education:
-2005-2010 Moscow State University of Economics, Statistics and Informatics
-**Specialty:** anti-crisis management, **Qualification:** economist-manager.
+## SKILLS AND KNOWLEDGE
 
-### Languages:
-**English:**
-– Pre-Intermediate
+* English Proficiency: Pre-intermediate 
+* Familiar with Terminology in Software Development
+* Understanding of agile development cycles
+* Strong professional communication skills
+* Excellent analytical and problem-solving skills
 
-### Skills:
-Linux, Windows; Git, JavaScript, HTML/HTML5, CSS/CSS3; 
-jQuery, Angular, NodeJs,  JSON; PHP,JIRA
-        
-### Projects:
-- **PracticeChat [under development]**
-		Online chat for learning English. A real-world full-stack
-		project with REST API and WebSockets that uses JWT-
-		authentication. The Front-End part is written by using
-		React Hooks, Redux and Redux Middlewares.
+## EXPERIENCE
 
-- **Sticksy.js [2019 – present]**
-		Open-Source library for making a “sticky widget”
-		behavior. Here you can see my algorithmic and
-		programming skills in vanilla JavaScript.
+* Linux, Windows; Git, JavaScript, HTML/HTML5, CSS/CSS3; jQuery, Angular, NodeJs, JSON
+* Experience in developing documentation and preparation of product requirements
 
-- **As well  participated in other smaller projects since 2019.**
+## Education
+
+Start/End Date | University
+------------ | -------------
+September 2005 to 2010 | **Moscow State University of Economics, Statistics and Informatics** Specialty: anti-crisis management
