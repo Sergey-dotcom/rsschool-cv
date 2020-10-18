@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Searhei Ausiannikau</title>
-</head>
-<body>
-    <header>
-        <h1>Searhei Ausiannikau</h1>
-    </header>
-    <hr>
-    <figure>
-        <img src="my_photo.jpg" alt="My photo">
-    </figure>
-    <div>
-        <div>Дата рождения: 06 октября 1981</div>
-        <div>Телефон: +375-29-686-67-90</div>
-        <div>Город: Минск</div>
-        <div>E-mail: sergeyovsynnikov2@gmai</div>
-    </div>
-    <!--About me-->
-    <div>
-        <section>
-            <h3>OBJECTIVE</h3>
-            <p>Looking to obtain a position as a Junior JS Developer in a team of professionals for growing as a specialist and become be able to resolve a high range of business tasks</p>
-        </section>
-    </div>
-    <div>
-        <section>
-            <h3>SKILLS AND KNOWLEDGE</h3>
-            <div>
-                <ul>
-                    <li>English Proficiency: Pre-intermediate </li>
-                    <li>Familiar with Terminology in Software Development</li>
-                    <li>Understanding of agile development cycles</li>
-                    <li>Strong professional communication skills</li>
-                    <li>Excellent analytical and problem-solving skills</li>
-                </ul>
-            </div>
-        </section>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="row">
+        <header class="row">
+          <h1 class="name">Searhei Ausiannikau</h1>
+                <img class="my-photo" src="my_photo.jpg" alt="My photo" />
+                    <section class="contact-info">
+                        <div>
+                            <h2 class="section__title">
+                                <b>Junior Front-End Developer</b>
+                            </h2>
+                        </div>
+            <div class ="birth">Date of Birth: 06 October 1981</div>
+            <div class="contact__icon"><img src="home.svg" width="21"> Minsk</div>
+            <div class="contact__icon"><img src="envelope.svg" width="22">Sergeyovsynnikov2@gmai.com</div>
+            <div class="phone"><img src="phone-icon.svg" width="21">+375-29-686-67-90</div>
+          </section>
 
-        <section>
-            <h3>EXPERIENCE</h3>
-            <div>
-                <p>Linux, Windows; Git, JavaScript, HTML/HTML5, CSS/CSS3; jQuery, Angular, NodeJs, JSON</p>
-                <p>Experience in developing documentation and preparation of product requirements</p>
+        </header>
+                    
+        <!--About me-->
+        <div class="row">
+          <section class="section highlight" style="line-height: 145%">
+            <h3 class="section__title">OBJECTIVE</h3>
+            <p>
+              Looking to obtain a position as a Junior JS Developer in a team of
+              professionals for growing as a specialist and become be able to
+              resolve a high range of business tasks
+            </p>
+          </section>
+        </div>
+        <div class="row">
+          <section class="section">
+            <h3 class="section__title">SKILLS AND KNOWLEDGE</h3>
+            <div class="secton_body">
+              <ul>
+                <li>English Proficiency: Pre-intermediate</li>
+                <li>Familiar with Terminology in Software Development</li>
+                <li>Understanding of agile development cycles</li>
+                <li>Strong professional communication skills</li>
+                <li>Excellent analytical and problem-solving skills</li>
+              </ul>
             </div>
-        </section>
-    </div>
-    <!-- Education-->
-    <div>
-        <section>
-            <h3>Education</h3>
-            <div>
-                <p>Moscow State University of Economics, Statistics and Informatics, 2005 – 2010</p>
-                <p>Specialty: anti-crisis management</p>
+          </section>
+
+          <sectionclass="section">
+            <h3 class="section__title">EXPERIENCE</h3>
+            <div class="row">
+              <p>
+                Linux, Windows; Git, JavaScript, HTML/HTML5, CSS/CSS3; jQuery,
+                Angular, NodeJs, JSON
+              </p>
+              <p>
+                Experience in developing documentation and preparation of
+                product requirements
+              </p>
             </div>
-        </section>
+          </sectionc>
+        </div>
+        <!-- Education-->
+        <div class="row">
+          <section class="section">
+            <h3 class="section__title">Education</h3>
+            <div>
+              <p>
+                Moscow State University of Economics, Statistics and
+                Informatics, 2005 – 2010
+              </p>
+              <p><em>Specialty:</em> anti-crisis management</p>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
