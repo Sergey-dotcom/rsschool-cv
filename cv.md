@@ -22,4 +22,4 @@ Looking to obtain a position as a Junior JS Developer in a team of professionals
 
 Start/End Date | University
 ------------ | -------------
-September 2005 to 2010 | **Moscow State University of Economics, Statistics and Informatics** Specialty: anti-crisis management
+September 2005 to 2010 | **Moscow State University of Economics, Statistics and Informatics** *Specialty:* anti-crisis management
