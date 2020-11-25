@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #ffc600;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10rem;
+  line-height: 1;
+  border-bottom: 0;
+  margin: 15px;
+}
+
+h2 {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.level {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.levelValue {
+  flex-basis: 50px;
+  color: yellow;
+}
+
+.levelValue.easy::before {
+  content: "easy";
+}
+
+.levelValue.middle::before {
+  content: "middle";
+}
+.levelValue.hard::after {
+  content: "hard";
+}
+
+button {
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.score {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 3 rem;
+  line-height: 1;
+  border-radius: 1 rem;
+}
+
+.game {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hole {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+.hole::after {
+  display: block;
+  background: url(/img/dirt.svg) bottom center no-repeat;
+  background-size: contain;
+  content: "";
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 2;
+  bottom: -30px;
+}
+
+.mole {
+  background: url(/img/mole.svg) bottom center no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.mole:hover {
+  cursor: pointer;
+}
+
+.hole.up .mole {
+  top: 0;
+}
