@@ -16,26 +16,19 @@ body {
 .wrapper {
   display: flex;
   width: 850px;
-  position: relative;
-  overflow: hidden;
 }
 .wrapper:hover .speed {
   transform: translateX(0);
 }
 .speed {
-  position: absolute;
+  background: #efefef;
   flex: 1;
-  right: 30px;
-  top: 0px;
-  height: 100%;
   display: flex;
   align-items: flex-start;
-  background: grey;
+  margin: 10px;
   border-radius: 50px;
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  transform: translateX(100px);
-  transition: all 0.5s;
 }
 .speed-bar {
   width: 100%;
