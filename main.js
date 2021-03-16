@@ -281,12 +281,10 @@ const runEmulation = (finish) => {
     }, 1000);
   };
   const failTry = () => {
-    console.log("success");
     enterResult(getRightAnswer());
   };
 
   const successTry = () => {
-    console.log("fail");
     enterResult(getRightAnswer() + "7");
   };
 
